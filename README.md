@@ -62,7 +62,7 @@ TIDMAD users could follow the procedure below to reprocued the result in our pap
        *   `[out]` is the file name for output brazil band plot. Plot will be saved as `[out].png`. Data will be saved at `[out].csv`. If input file type is `.txt` the average psd will be saved in `[out].npy`.
        *   `--level` is either 'coarse' or 'fine' for coarse or full axion mass points. Standard is 'coarse'.
        *   `--v` for verbose option for logger and error messages.
-10. Run `` with `[output].csv` to produce global Dark Matter Limit plot. (Mo please add details)
+10. Run `csv_to_txt.py` with `[output].csv` to change the format of the output file and run `AxionPhoton_TIDMAD.ipynb` to produce global Dark Matter Limit plot. Notice that the jupyter notebook is using the plotting tools in AxionLimits (https://github.com/cajohare/AxionLimits) with a specific plot funciton `PlotFuncs_TIDMAD.py`. 
 
 ## Contact
 Please contact J. T. Fry for all questions about the code and data [jtfry@mit.edu](mailto:jtfry@mit.edu).
